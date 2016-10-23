@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9526C2B1DBC145400A5E99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9526C2A1DBC145400A5E99E /* AppDelegate.swift */; };
+		F9526C2D1DBC145400A5E99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9526C2C1DBC145400A5E99E /* ViewController.swift */; };
+		F9526C301DBC145400A5E99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9526C2E1DBC145400A5E99E /* Main.storyboard */; };
+		F9526C321DBC145400A5E99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9526C311DBC145400A5E99E /* Assets.xcassets */; };
+		F9526C351DBC145400A5E99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9526C331DBC145400A5E99E /* LaunchScreen.storyboard */; };
+		F977726D1DBCD5B900B6D953 /* Community_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F977726C1DBCD5B900B6D953 /* Community_icon.png */; };
+		F977726F1DBCE28900B6D953 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977726E1DBCE28900B6D953 /* DataViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9526C271DBC145400A5E99E /* intuitHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intuitHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9526C2A1DBC145400A5E99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9526C2C1DBC145400A5E99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9526C2F1DBC145400A5E99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9526C311DBC145400A5E99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9526C341DBC145400A5E99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9526C361DBC145400A5E99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F977726C1DBCD5B900B6D953 /* Community_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Community_icon.png; sourceTree = "<group>"; };
+		F977726E1DBCE28900B6D953 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9526C241DBC145300A5E99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9526C1E1DBC145300A5E99E = {
+			isa = PBXGroup;
+			children = (
+				F9526C291DBC145400A5E99E /* intuitHackathon */,
+				F9526C281DBC145400A5E99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9526C281DBC145400A5E99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9526C271DBC145400A5E99E /* intuitHackathon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9526C291DBC145400A5E99E /* intuitHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				F9526C2A1DBC145400A5E99E /* AppDelegate.swift */,
+				F9526C2C1DBC145400A5E99E /* ViewController.swift */,
+				F977726E1DBCE28900B6D953 /* DataViewController.swift */,
+				F9526C2E1DBC145400A5E99E /* Main.storyboard */,
+				F977726C1DBCD5B900B6D953 /* Community_icon.png */,
+				F9526C311DBC145400A5E99E /* Assets.xcassets */,
+				F9526C331DBC145400A5E99E /* LaunchScreen.storyboard */,
+				F9526C361DBC145400A5E99E /* Info.plist */,
+			);
+			path = intuitHackathon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9526C261DBC145300A5E99E /* intuitHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9526C391DBC145400A5E99E /* Build configuration list for PBXNativeTarget "intuitHackathon" */;
+			buildPhases = (
+				F9526C231DBC145300A5E99E /* Sources */,
+				F9526C241DBC145300A5E99E /* Frameworks */,
+				F9526C251DBC145300A5E99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = intuitHackathon;
+			productName = intuitHackathon;
+			productReference = F9526C271DBC145400A5E99E /* intuitHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9526C1F1DBC145300A5E99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Rami Shahatit";
+				TargetAttributes = {
+					F9526C261DBC145300A5E99E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9H95QB7A34;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9526C221DBC145300A5E99E /* Build configuration list for PBXProject "intuitHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9526C1E1DBC145300A5E99E;
+			productRefGroup = F9526C281DBC145400A5E99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9526C261DBC145300A5E99E /* intuitHackathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9526C251DBC145300A5E99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9526C351DBC145400A5E99E /* LaunchScreen.storyboard in Resources */,
+				F9526C321DBC145400A5E99E /* Assets.xcassets in Resources */,
+				F977726D1DBCD5B900B6D953 /* Community_icon.png in Resources */,
+				F9526C301DBC145400A5E99E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9526C231DBC145300A5E99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9526C2D1DBC145400A5E99E /* ViewController.swift in Sources */,
+				F977726F1DBCE28900B6D953 /* DataViewController.swift in Sources */,
+				F9526C2B1DBC145400A5E99E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9526C2E1DBC145400A5E99E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9526C2F1DBC145400A5E99E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9526C331DBC145400A5E99E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9526C341DBC145400A5E99E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9526C371DBC145400A5E99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9526C381DBC145400A5E99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9526C3A1DBC145400A5E99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9H95QB7A34;
+				INFOPLIST_FILE = intuitHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramishahatit.intuitHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9526C3B1DBC145400A5E99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9H95QB7A34;
+				INFOPLIST_FILE = intuitHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramishahatit.intuitHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9526C221DBC145300A5E99E /* Build configuration list for PBXProject "intuitHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9526C371DBC145400A5E99E /* Debug */,
+				F9526C381DBC145400A5E99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9526C391DBC145400A5E99E /* Build configuration list for PBXNativeTarget "intuitHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9526C3A1DBC145400A5E99E /* Debug */,
+				F9526C3B1DBC145400A5E99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9526C1F1DBC145300A5E99E /* Project object */;
+}
